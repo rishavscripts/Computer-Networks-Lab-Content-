@@ -18,3 +18,8 @@ for number, data in frames:
     message += data
 
 print("Reconstructed Message:", message)
+
+#output:
+# Received Frames: [(2, 'or'), (1, 'W'), (3, 'ld')]
+# Sorted Frames: [(1, 'W'), (2, 'or'), (3, 'ld')]
+# Reconstructed Message: World.
